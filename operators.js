@@ -44,4 +44,23 @@ console.log("Ternary Operator")
 let age=10;
 (age>18)?console.log("You can vote"):console.log("You cannot vote")
 //Logical operators
+console.log("Logical operators")
+let user = "John";
+let pass = "1234";
 
+console.log(user=="John" && pass =="1234")
+console.log(user=="John" || pass =="1234")
+console.log(!(user=="John" || pass =="1234"))
+
+console.log("Working with Non booleans")
+console.log("soyabg" && "soyab1")
+console.log("" || "soyab")
+console.log(!("" || "soyab"))
+
+console.log("Bitwise operators")
+console.log(7 & 4)
+console.log(7 | 4)
+console.log(~(7 | 4))
+console.log(7 ^ 4)
+console.log(9 >> 1)
+console.log(7 << 4)
