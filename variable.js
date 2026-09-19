@@ -1,4 +1,4 @@
-let name = "Soyab"
+ let name = "Soyab"
 name = "Soyab Gadekar"
 console.log(name)
 
